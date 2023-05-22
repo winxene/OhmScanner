@@ -1,0 +1,1231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9140AD1F2A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */; };
+		9140AD202A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */; };
+		9140AD212A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */; };
+		9140AD222A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */; };
+		9140AD232A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */; };
+		9140AD242A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */; };
+		9140AD272A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */; };
+		9140AD282A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */; };
+		9140AD292A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */; };
+		9140AD2A2A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */; };
+		9140AD2B2A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */; };
+		9140AD2C2A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */; };
+		9140AD2D2A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */; };
+		9140AD2E2A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */; };
+		9140AD2F2A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */; };
+		9140AD302A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */; };
+		9140AD312A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */; };
+		9140AD322A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */; };
+		9140AD392A1A781B008EE97C /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD382A1A781B008EE97C /* CameraCaptureView.swift */; };
+		9140AD3C2A1A79FE008EE97C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD3B2A1A79FE008EE97C /* CameraView.swift */; };
+		91D9BF672A173FB700C8E118 /* soldirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF662A173FB700C8E118 /* soldirApp.swift */; };
+		91D9BF6B2A173FB900C8E118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF6A2A173FB900C8E118 /* Assets.xcassets */; };
+		91D9BF6E2A173FB900C8E118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF6D2A173FB900C8E118 /* Preview Assets.xcassets */; };
+		91D9BF782A173FB900C8E118 /* soldirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF772A173FB900C8E118 /* soldirTests.swift */; };
+		91D9BF822A173FB900C8E118 /* soldirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF812A173FB900C8E118 /* soldirUITests.swift */; };
+		91D9BF842A173FB900C8E118 /* soldirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF832A173FB900C8E118 /* soldirUITestsLaunchTests.swift */; };
+		91D9BF8A2A173FB900C8E118 /* soldir Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91D9BF892A173FB900C8E118 /* soldir Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91D9BF8F2A173FB900C8E118 /* soldirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF8E2A173FB900C8E118 /* soldirApp.swift */; };
+		91D9BF912A173FB900C8E118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF902A173FB900C8E118 /* ContentView.swift */; };
+		91D9BF932A173FBA00C8E118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF922A173FBA00C8E118 /* Assets.xcassets */; };
+		91D9BF962A173FBA00C8E118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF952A173FBA00C8E118 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91D9BF742A173FB900C8E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D9BF5B2A173FB700C8E118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D9BF622A173FB700C8E118;
+			remoteInfo = soldir;
+		};
+		91D9BF7E2A173FB900C8E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D9BF5B2A173FB700C8E118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D9BF622A173FB700C8E118;
+			remoteInfo = soldir;
+		};
+		91D9BF8B2A173FB900C8E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D9BF5B2A173FB700C8E118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D9BF882A173FB900C8E118;
+			remoteInfo = "soldir Watch App";
+		};
+		91D9BF9C2A173FBA00C8E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D9BF5B2A173FB700C8E118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D9BF882A173FB900C8E118;
+			remoteInfo = "soldir Watch App";
+		};
+		91D9BFA62A173FBA00C8E118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91D9BF5B2A173FB700C8E118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91D9BF882A173FB900C8E118;
+			remoteInfo = "soldir Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91D9BFB22A173FBA00C8E118 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				91D9BF8A2A173FB900C8E118 /* soldir Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soldir_Watch_AppTests.swift; sourceTree = "<group>"; };
+		9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soldir_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soldir_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		9140AD382A1A781B008EE97C /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCaptureView.swift; sourceTree = "<group>"; };
+		9140AD3B2A1A79FE008EE97C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		91D9BF632A173FB700C8E118 /* soldir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soldir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF662A173FB700C8E118 /* soldirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirApp.swift; sourceTree = "<group>"; };
+		91D9BF6A2A173FB900C8E118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D9BF6D2A173FB900C8E118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91D9BF732A173FB900C8E118 /* soldirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soldirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF772A173FB900C8E118 /* soldirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirTests.swift; sourceTree = "<group>"; };
+		91D9BF7D2A173FB900C8E118 /* soldirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soldirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF812A173FB900C8E118 /* soldirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirUITests.swift; sourceTree = "<group>"; };
+		91D9BF832A173FB900C8E118 /* soldirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91D9BF892A173FB900C8E118 /* soldir Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "soldir Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF8E2A173FB900C8E118 /* soldirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirApp.swift; sourceTree = "<group>"; };
+		91D9BF902A173FB900C8E118 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91D9BF922A173FBA00C8E118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91D9BF952A173FBA00C8E118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91D9BF9B2A173FBA00C8E118 /* soldir Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "soldir Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BFA52A173FBA00C8E118 /* soldir Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "soldir Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91D9BF602A173FB700C8E118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF702A173FB900C8E118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF7A2A173FB900C8E118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF862A173FB900C8E118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF982A173FBA00C8E118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BFA22A173FBA00C8E118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9140AD102A189A17008EE97C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF6A2A173FB900C8E118 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9140AD112A189AD2008EE97C /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF662A173FB700C8E118 /* soldirApp.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		9140AD122A189AEA008EE97C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD3D2A1B8015008EE97C /* Onboarding */,
+				9140AD162A189B20008EE97C /* Home */,
+				9140AD132A189AF8008EE97C /* Camera */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9140AD132A189AF8008EE97C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD142A189B01008EE97C /* Models */,
+				9140AD152A189B07008EE97C /* Views */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9140AD142A189B01008EE97C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9140AD152A189B07008EE97C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD3A2A1A79E1008EE97C /* Components */,
+				9140AD3B2A1A79FE008EE97C /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9140AD162A189B20008EE97C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD172A189B36008EE97C /* Models */,
+				9140AD182A189B3A008EE97C /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9140AD172A189B36008EE97C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9140AD182A189B3A008EE97C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9140AD192A189B52008EE97C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD332A189BF3008EE97C /* ShowValue */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9140AD1A2A189B92008EE97C /* soldir Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "soldir Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9140AD1B2A189B92008EE97C /* soldir Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "soldir Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		9140AD1C2A189BAB008EE97C /* soldir Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD1E2A189BC3008EE97C /* soldir_Watch_AppTests.swift */,
+			);
+			path = "soldir Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9140AD1D2A189BAB008EE97C /* soldir Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD262A189BCC008EE97C /* soldir_Watch_AppUITests.swift */,
+				9140AD252A189BCB008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "soldir Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		9140AD332A189BF3008EE97C /* ShowValue */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD342A189C04008EE97C /* Models */,
+				9140AD352A189C0E008EE97C /* Views */,
+			);
+			path = ShowValue;
+			sourceTree = "<group>";
+		};
+		9140AD342A189C04008EE97C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9140AD352A189C0E008EE97C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9140AD362A189C20008EE97C /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		9140AD372A189C29008EE97C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF922A173FBA00C8E118 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9140AD3A2A1A79E1008EE97C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD382A1A781B008EE97C /* CameraCaptureView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9140AD3D2A1B8015008EE97C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9140AD3E2A1B8020008EE97C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD3F2A1B8031008EE97C /* Camera */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9140AD3F2A1B8031008EE97C /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		91D9BF5A2A173FB700C8E118 = {
+			isa = PBXGroup;
+			children = (
+				91D9BF652A173FB700C8E118 /* soldir */,
+				91D9BF762A173FB900C8E118 /* soldirTests */,
+				91D9BF802A173FB900C8E118 /* soldirUITests */,
+				91D9BF8D2A173FB900C8E118 /* soldir Watch App */,
+				9140AD1C2A189BAB008EE97C /* soldir Watch AppTests */,
+				9140AD1D2A189BAB008EE97C /* soldir Watch AppUITests */,
+				91D9BF642A173FB700C8E118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91D9BF642A173FB700C8E118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF632A173FB700C8E118 /* soldir.app */,
+				91D9BF732A173FB900C8E118 /* soldirTests.xctest */,
+				91D9BF7D2A173FB900C8E118 /* soldirUITests.xctest */,
+				91D9BF892A173FB900C8E118 /* soldir Watch App.app */,
+				91D9BF9B2A173FBA00C8E118 /* soldir Watch AppTests.xctest */,
+				91D9BFA52A173FBA00C8E118 /* soldir Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91D9BF652A173FB700C8E118 /* soldir */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD3E2A1B8020008EE97C /* Core */,
+				9140AD122A189AEA008EE97C /* Features */,
+				9140AD112A189AD2008EE97C /* Applications */,
+				9140AD102A189A17008EE97C /* Resources */,
+				91D9BF6C2A173FB900C8E118 /* Preview Content */,
+			);
+			path = soldir;
+			sourceTree = "<group>";
+		};
+		91D9BF6C2A173FB900C8E118 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF6D2A173FB900C8E118 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91D9BF762A173FB900C8E118 /* soldirTests */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF772A173FB900C8E118 /* soldirTests.swift */,
+			);
+			path = soldirTests;
+			sourceTree = "<group>";
+		};
+		91D9BF802A173FB900C8E118 /* soldirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91D9BF812A173FB900C8E118 /* soldirUITests.swift */,
+				91D9BF832A173FB900C8E118 /* soldirUITestsLaunchTests.swift */,
+			);
+			path = soldirUITests;
+			sourceTree = "<group>";
+		};
+		91D9BF8D2A173FB900C8E118 /* soldir Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD372A189C29008EE97C /* Resources */,
+				9140AD362A189C20008EE97C /* Applications */,
+				9140AD192A189B52008EE97C /* Features */,
+				91D9BF8E2A173FB900C8E118 /* soldirApp.swift */,
+				91D9BF902A173FB900C8E118 /* ContentView.swift */,
+				91D9BF942A173FBA00C8E118 /* Preview Content */,
+			);
+			path = "soldir Watch App";
+			sourceTree = "<group>";
+		};
+		91D9BF942A173FBA00C8E118 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9140AD1A2A189B92008EE97C /* soldir Watch AppTests */,
+				9140AD1B2A189B92008EE97C /* soldir Watch AppUITests */,
+				91D9BF952A173FBA00C8E118 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91D9BF622A173FB700C8E118 /* soldir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9BFB32A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir" */;
+			buildPhases = (
+				91D9BF5F2A173FB700C8E118 /* Sources */,
+				91D9BF602A173FB700C8E118 /* Frameworks */,
+				91D9BF612A173FB700C8E118 /* Resources */,
+				91D9BFB22A173FBA00C8E118 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9BF8C2A173FB900C8E118 /* PBXTargetDependency */,
+			);
+			name = soldir;
+			productName = soldir;
+			productReference = 91D9BF632A173FB700C8E118 /* soldir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D9BF722A173FB900C8E118 /* soldirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9BFB62A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirTests" */;
+			buildPhases = (
+				91D9BF6F2A173FB900C8E118 /* Sources */,
+				91D9BF702A173FB900C8E118 /* Frameworks */,
+				91D9BF712A173FB900C8E118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9BF752A173FB900C8E118 /* PBXTargetDependency */,
+			);
+			name = soldirTests;
+			productName = soldirTests;
+			productReference = 91D9BF732A173FB900C8E118 /* soldirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D9BF7C2A173FB900C8E118 /* soldirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9BFB92A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirUITests" */;
+			buildPhases = (
+				91D9BF792A173FB900C8E118 /* Sources */,
+				91D9BF7A2A173FB900C8E118 /* Frameworks */,
+				91D9BF7B2A173FB900C8E118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9BF7F2A173FB900C8E118 /* PBXTargetDependency */,
+			);
+			name = soldirUITests;
+			productName = soldirUITests;
+			productReference = 91D9BF7D2A173FB900C8E118 /* soldirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		91D9BF882A173FB900C8E118 /* soldir Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9BFAF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch App" */;
+			buildPhases = (
+				91D9BF852A173FB900C8E118 /* Sources */,
+				91D9BF862A173FB900C8E118 /* Frameworks */,
+				91D9BF872A173FB900C8E118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "soldir Watch App";
+			productName = "soldir Watch App";
+			productReference = 91D9BF892A173FB900C8E118 /* soldir Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91D9BF9A2A173FBA00C8E118 /* soldir Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9BFBC2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppTests" */;
+			buildPhases = (
+				91D9BF972A173FBA00C8E118 /* Sources */,
+				91D9BF982A173FBA00C8E118 /* Frameworks */,
+				91D9BF992A173FBA00C8E118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9BF9D2A173FBA00C8E118 /* PBXTargetDependency */,
+			);
+			name = "soldir Watch AppTests";
+			productName = "soldir Watch AppTests";
+			productReference = 91D9BF9B2A173FBA00C8E118 /* soldir Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91D9BFA42A173FBA00C8E118 /* soldir Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D9BFBF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppUITests" */;
+			buildPhases = (
+				91D9BFA12A173FBA00C8E118 /* Sources */,
+				91D9BFA22A173FBA00C8E118 /* Frameworks */,
+				91D9BFA32A173FBA00C8E118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91D9BFA72A173FBA00C8E118 /* PBXTargetDependency */,
+			);
+			name = "soldir Watch AppUITests";
+			productName = "soldir Watch AppUITests";
+			productReference = 91D9BFA52A173FBA00C8E118 /* soldir Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91D9BF5B2A173FB700C8E118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					91D9BF622A173FB700C8E118 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					91D9BF722A173FB900C8E118 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 91D9BF622A173FB700C8E118;
+					};
+					91D9BF7C2A173FB900C8E118 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 91D9BF622A173FB700C8E118;
+					};
+					91D9BF882A173FB900C8E118 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					91D9BF9A2A173FBA00C8E118 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+						TestTargetID = 91D9BF882A173FB900C8E118;
+					};
+					91D9BFA42A173FBA00C8E118 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+						TestTargetID = 91D9BF882A173FB900C8E118;
+					};
+				};
+			};
+			buildConfigurationList = 91D9BF5E2A173FB700C8E118 /* Build configuration list for PBXProject "soldir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91D9BF5A2A173FB700C8E118;
+			productRefGroup = 91D9BF642A173FB700C8E118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91D9BF622A173FB700C8E118 /* soldir */,
+				91D9BF722A173FB900C8E118 /* soldirTests */,
+				91D9BF7C2A173FB900C8E118 /* soldirUITests */,
+				91D9BF882A173FB900C8E118 /* soldir Watch App */,
+				91D9BF9A2A173FBA00C8E118 /* soldir Watch AppTests */,
+				91D9BFA42A173FBA00C8E118 /* soldir Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91D9BF612A173FB700C8E118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D9BF6E2A173FB900C8E118 /* Preview Assets.xcassets in Resources */,
+				91D9BF6B2A173FB900C8E118 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF712A173FB900C8E118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF7B2A173FB900C8E118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF872A173FB900C8E118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D9BF962A173FBA00C8E118 /* Preview Assets.xcassets in Resources */,
+				91D9BF932A173FBA00C8E118 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF992A173FBA00C8E118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BFA32A173FBA00C8E118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91D9BF5F2A173FB700C8E118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9140AD272A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9140AD392A1A781B008EE97C /* CameraCaptureView.swift in Sources */,
+				9140AD1F2A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
+				9140AD3C2A1A79FE008EE97C /* CameraView.swift in Sources */,
+				9140AD2D2A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */,
+				91D9BF672A173FB700C8E118 /* soldirApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF6F2A173FB900C8E118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9140AD2E2A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */,
+				9140AD202A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
+				9140AD282A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+				91D9BF782A173FB900C8E118 /* soldirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF792A173FB900C8E118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D9BF822A173FB900C8E118 /* soldirUITests.swift in Sources */,
+				9140AD292A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9140AD212A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
+				9140AD2F2A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */,
+				91D9BF842A173FB900C8E118 /* soldirUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF852A173FB900C8E118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D9BF912A173FB900C8E118 /* ContentView.swift in Sources */,
+				9140AD2A2A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9140AD222A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
+				9140AD302A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */,
+				91D9BF8F2A173FB900C8E118 /* soldirApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BF972A173FBA00C8E118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9140AD232A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
+				9140AD312A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */,
+				9140AD2B2A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91D9BFA12A173FBA00C8E118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9140AD242A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
+				9140AD322A189BCC008EE97C /* soldir_Watch_AppUITests.swift in Sources */,
+				9140AD2C2A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91D9BF752A173FB900C8E118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D9BF622A173FB700C8E118 /* soldir */;
+			targetProxy = 91D9BF742A173FB900C8E118 /* PBXContainerItemProxy */;
+		};
+		91D9BF7F2A173FB900C8E118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D9BF622A173FB700C8E118 /* soldir */;
+			targetProxy = 91D9BF7E2A173FB900C8E118 /* PBXContainerItemProxy */;
+		};
+		91D9BF8C2A173FB900C8E118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D9BF882A173FB900C8E118 /* soldir Watch App */;
+			targetProxy = 91D9BF8B2A173FB900C8E118 /* PBXContainerItemProxy */;
+		};
+		91D9BF9D2A173FBA00C8E118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D9BF882A173FB900C8E118 /* soldir Watch App */;
+			targetProxy = 91D9BF9C2A173FBA00C8E118 /* PBXContainerItemProxy */;
+		};
+		91D9BFA72A173FBA00C8E118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91D9BF882A173FB900C8E118 /* soldir Watch App */;
+			targetProxy = 91D9BFA62A173FBA00C8E118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91D9BFAD2A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91D9BFAE2A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		91D9BFB02A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"soldir Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XA29694495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = soldir;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.winxen.soldir;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.soldir.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		91D9BFB12A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"soldir Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XA29694495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = soldir;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = dev.winxen.soldir;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.soldir.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		91D9BFB42A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"soldir/Preview Content\"";
+				DEVELOPMENT_TEAM = XA29694495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OhmScanner;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.ohmscanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91D9BFB52A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"soldir/Preview Content\"";
+				DEVELOPMENT_TEAM = XA29694495;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = OhmScanner;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.ohmscanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D9BFB72A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.soldirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir";
+			};
+			name = Debug;
+		};
+		91D9BFB82A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.soldirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D9BFBA2A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.soldirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soldir;
+			};
+			name = Debug;
+		};
+		91D9BFBB2A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.soldirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = soldir;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91D9BFBD2A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.winxen.soldir-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		91D9BFBE2A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.winxen.soldir-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		91D9BFC02A173FBA00C8E118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.winxen.soldir-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "soldir Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		91D9BFC12A173FBA00C8E118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA29694495;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.winxen.soldir-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "soldir Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91D9BF5E2A173FB700C8E118 /* Build configuration list for PBXProject "soldir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFAD2A173FBA00C8E118 /* Debug */,
+				91D9BFAE2A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9BFAF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFB02A173FBA00C8E118 /* Debug */,
+				91D9BFB12A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9BFB32A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFB42A173FBA00C8E118 /* Debug */,
+				91D9BFB52A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9BFB62A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFB72A173FBA00C8E118 /* Debug */,
+				91D9BFB82A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9BFB92A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFBA2A173FBA00C8E118 /* Debug */,
+				91D9BFBB2A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9BFBC2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFBD2A173FBA00C8E118 /* Debug */,
+				91D9BFBE2A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D9BFBF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91D9BFC02A173FBA00C8E118 /* Debug */,
+				91D9BFC12A173FBA00C8E118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91D9BF5B2A173FB700C8E118 /* Project object */;
+}
