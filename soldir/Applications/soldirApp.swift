@@ -11,7 +11,7 @@ import SwiftUI
 struct soldirApp: App {
     var body: some Scene {
         WindowGroup {
-            CameraView()
+            OnboardingView()
         }
     }
 }
