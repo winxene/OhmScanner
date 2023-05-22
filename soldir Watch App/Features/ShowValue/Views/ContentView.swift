@@ -12,6 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Resistance").fontWeight(.bold).padding(.bottom, 16)
             HStack(alignment: .center, spacing: 12){
+                //pakai viewmodels bwt atur fontnya
                 Text("100")
                 Text("Ω")
             }

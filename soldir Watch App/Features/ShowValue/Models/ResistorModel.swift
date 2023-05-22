@@ -5,4 +5,6 @@
 //  Created by Winxen Ryandiharvin on 22/05/23.
 //
 
-import Foundation
+//import Foundation
+
+//Connecting between apple watch and app
