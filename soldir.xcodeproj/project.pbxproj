@@ -32,7 +32,7 @@
 		9140AD532A1BC9C9008EE97C /* ResistorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD522A1BC9C9008EE97C /* ResistorModel.swift */; };
 		9140AD5D2A1BD24B008EE97C /* OnboardingCarouselCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9140AD5C2A1BD24B008EE97C /* OnboardingCarouselCard.swift */; };
 		9160DCC62A1CFBC1003BFE86 /* AppearanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCC52A1CFBC1003BFE86 /* AppearanceModel.swift */; };
-		9160DCCD2A1DED7F003BFE86 /* resistorValueClassification_V1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCCC2A1DED7F003BFE86 /* resistorValueClassification_V1.mlmodel */; };
+		9160DCCD2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCCC2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel */; };
 		9160DCD02A1E010A003BFE86 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCCF2A1E010A003BFE86 /* CameraViewModel.swift */; };
 		91D9BF672A173FB700C8E118 /* SoldirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF662A173FB700C8E118 /* SoldirApp.swift */; };
 		91D9BF6B2A173FB900C8E118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF6A2A173FB900C8E118 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		91D9BF782A173FB900C8E118 /* soldirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF772A173FB900C8E118 /* soldirTests.swift */; };
 		91D9BF822A173FB900C8E118 /* soldirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF812A173FB900C8E118 /* soldirUITests.swift */; };
 		91D9BF842A173FB900C8E118 /* soldirUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF832A173FB900C8E118 /* soldirUITestsLaunchTests.swift */; };
-		91D9BF8A2A173FB900C8E118 /* OhmScanner.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91D9BF892A173FB900C8E118 /* OhmScanner.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91D9BF8A2A173FB900C8E118 /* soldir.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 91D9BF892A173FB900C8E118 /* soldir.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		91D9BF8F2A173FB900C8E118 /* soldirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF8E2A173FB900C8E118 /* soldirApp.swift */; };
 		91D9BF912A173FB900C8E118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF902A173FB900C8E118 /* ContentView.swift */; };
 		91D9BF932A173FBA00C8E118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF922A173FBA00C8E118 /* Assets.xcassets */; };
@@ -92,7 +92,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				91D9BF8A2A173FB900C8E118 /* OhmScanner.app in Embed Watch Content */,
+				91D9BF8A2A173FB900C8E118 /* soldir.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,24 +110,24 @@
 		9140AD522A1BC9C9008EE97C /* ResistorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorModel.swift; sourceTree = "<group>"; };
 		9140AD5C2A1BD24B008EE97C /* OnboardingCarouselCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCarouselCard.swift; sourceTree = "<group>"; };
 		9160DCC52A1CFBC1003BFE86 /* AppearanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceModel.swift; sourceTree = "<group>"; };
-		9160DCCC2A1DED7F003BFE86 /* resistorValueClassification_V1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = resistorValueClassification_V1.mlmodel; sourceTree = "<group>"; };
+		9160DCCC2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ResistorValueClassification_V1.mlmodel; sourceTree = "<group>"; };
 		9160DCCF2A1E010A003BFE86 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
-		91D9BF632A173FB700C8E118 /* OhmScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhmScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF632A173FB700C8E118 /* soldir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soldir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D9BF662A173FB700C8E118 /* SoldirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldirApp.swift; sourceTree = "<group>"; };
 		91D9BF6A2A173FB900C8E118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D9BF6D2A173FB900C8E118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		91D9BF732A173FB900C8E118 /* OhmScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF732A173FB900C8E118 /* soldirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soldirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D9BF772A173FB900C8E118 /* soldirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirTests.swift; sourceTree = "<group>"; };
-		91D9BF7D2A173FB900C8E118 /* OhmScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF7D2A173FB900C8E118 /* soldirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = soldirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D9BF812A173FB900C8E118 /* soldirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirUITests.swift; sourceTree = "<group>"; };
 		91D9BF832A173FB900C8E118 /* soldirUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		91D9BF892A173FB900C8E118 /* OhmScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhmScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF892A173FB900C8E118 /* soldir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soldir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D9BF8E2A173FB900C8E118 /* soldirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soldirApp.swift; sourceTree = "<group>"; };
 		91D9BF902A173FB900C8E118 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91D9BF922A173FBA00C8E118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D9BF952A173FBA00C8E118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		91D9BF9B2A173FBA00C8E118 /* OhmScanner Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OhmScanner Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91D9BFA52A173FBA00C8E118 /* OhmScanner Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OhmScanner Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BF9B2A173FBA00C8E118 /* soldir Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "soldir Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D9BFA52A173FBA00C8E118 /* soldir Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "soldir Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +179,7 @@
 		9140AD102A189A17008EE97C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9160DCCC2A1DED7F003BFE86 /* resistorValueClassification_V1.mlmodel */,
+				9160DCCC2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel */,
 				91D9BF6A2A173FB900C8E118 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -429,12 +429,12 @@
 		91D9BF642A173FB700C8E118 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91D9BF632A173FB700C8E118 /* OhmScanner.app */,
-				91D9BF732A173FB900C8E118 /* OhmScannerTests.xctest */,
-				91D9BF7D2A173FB900C8E118 /* OhmScannerUITests.xctest */,
-				91D9BF892A173FB900C8E118 /* OhmScanner.app */,
-				91D9BF9B2A173FBA00C8E118 /* OhmScanner Watch AppTests.xctest */,
-				91D9BFA52A173FBA00C8E118 /* OhmScanner Watch AppUITests.xctest */,
+				91D9BF632A173FB700C8E118 /* soldir.app */,
+				91D9BF732A173FB900C8E118 /* soldirTests.xctest */,
+				91D9BF7D2A173FB900C8E118 /* soldirUITests.xctest */,
+				91D9BF892A173FB900C8E118 /* soldir.app */,
+				91D9BF9B2A173FBA00C8E118 /* soldir Watch AppTests.xctest */,
+				91D9BFA52A173FBA00C8E118 /* soldir Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -501,9 +501,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		91D9BF622A173FB700C8E118 /* OhmScanner */ = {
+		91D9BF622A173FB700C8E118 /* soldir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D9BFB32A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner" */;
+			buildConfigurationList = 91D9BFB32A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir" */;
 			buildPhases = (
 				91D9BF5F2A173FB700C8E118 /* Sources */,
 				91D9BF602A173FB700C8E118 /* Frameworks */,
@@ -515,14 +515,14 @@
 			dependencies = (
 				91D9BF8C2A173FB900C8E118 /* PBXTargetDependency */,
 			);
-			name = OhmScanner;
+			name = soldir;
 			productName = soldir;
-			productReference = 91D9BF632A173FB700C8E118 /* OhmScanner.app */;
+			productReference = 91D9BF632A173FB700C8E118 /* soldir.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91D9BF722A173FB900C8E118 /* OhmScannerTests */ = {
+		91D9BF722A173FB900C8E118 /* soldirTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D9BFB62A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScannerTests" */;
+			buildConfigurationList = 91D9BFB62A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirTests" */;
 			buildPhases = (
 				91D9BF6F2A173FB900C8E118 /* Sources */,
 				91D9BF702A173FB900C8E118 /* Frameworks */,
@@ -533,14 +533,14 @@
 			dependencies = (
 				91D9BF752A173FB900C8E118 /* PBXTargetDependency */,
 			);
-			name = OhmScannerTests;
+			name = soldirTests;
 			productName = soldirTests;
-			productReference = 91D9BF732A173FB900C8E118 /* OhmScannerTests.xctest */;
+			productReference = 91D9BF732A173FB900C8E118 /* soldirTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91D9BF7C2A173FB900C8E118 /* OhmScannerUITests */ = {
+		91D9BF7C2A173FB900C8E118 /* soldirUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D9BFB92A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScannerUITests" */;
+			buildConfigurationList = 91D9BFB92A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirUITests" */;
 			buildPhases = (
 				91D9BF792A173FB900C8E118 /* Sources */,
 				91D9BF7A2A173FB900C8E118 /* Frameworks */,
@@ -551,14 +551,14 @@
 			dependencies = (
 				91D9BF7F2A173FB900C8E118 /* PBXTargetDependency */,
 			);
-			name = OhmScannerUITests;
+			name = soldirUITests;
 			productName = soldirUITests;
-			productReference = 91D9BF7D2A173FB900C8E118 /* OhmScannerUITests.xctest */;
+			productReference = 91D9BF7D2A173FB900C8E118 /* soldirUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		91D9BF882A173FB900C8E118 /* OhmScanner Watch App */ = {
+		91D9BF882A173FB900C8E118 /* soldir Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D9BFAF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner Watch App" */;
+			buildConfigurationList = 91D9BFAF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch App" */;
 			buildPhases = (
 				91D9BF852A173FB900C8E118 /* Sources */,
 				91D9BF862A173FB900C8E118 /* Frameworks */,
@@ -568,14 +568,14 @@
 			);
 			dependencies = (
 			);
-			name = "OhmScanner Watch App";
+			name = "soldir Watch App";
 			productName = "soldir Watch App";
-			productReference = 91D9BF892A173FB900C8E118 /* OhmScanner.app */;
+			productReference = 91D9BF892A173FB900C8E118 /* soldir.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91D9BF9A2A173FBA00C8E118 /* OhmScanner Watch AppTests */ = {
+		91D9BF9A2A173FBA00C8E118 /* soldir Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D9BFBC2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner Watch AppTests" */;
+			buildConfigurationList = 91D9BFBC2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppTests" */;
 			buildPhases = (
 				91D9BF972A173FBA00C8E118 /* Sources */,
 				91D9BF982A173FBA00C8E118 /* Frameworks */,
@@ -586,14 +586,14 @@
 			dependencies = (
 				91D9BF9D2A173FBA00C8E118 /* PBXTargetDependency */,
 			);
-			name = "OhmScanner Watch AppTests";
+			name = "soldir Watch AppTests";
 			productName = "soldir Watch AppTests";
-			productReference = 91D9BF9B2A173FBA00C8E118 /* OhmScanner Watch AppTests.xctest */;
+			productReference = 91D9BF9B2A173FBA00C8E118 /* soldir Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		91D9BFA42A173FBA00C8E118 /* OhmScanner Watch AppUITests */ = {
+		91D9BFA42A173FBA00C8E118 /* soldir Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91D9BFBF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner Watch AppUITests" */;
+			buildConfigurationList = 91D9BFBF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppUITests" */;
 			buildPhases = (
 				91D9BFA12A173FBA00C8E118 /* Sources */,
 				91D9BFA22A173FBA00C8E118 /* Frameworks */,
@@ -604,9 +604,9 @@
 			dependencies = (
 				91D9BFA72A173FBA00C8E118 /* PBXTargetDependency */,
 			);
-			name = "OhmScanner Watch AppUITests";
+			name = "soldir Watch AppUITests";
 			productName = "soldir Watch AppUITests";
-			productReference = 91D9BFA52A173FBA00C8E118 /* OhmScanner Watch AppUITests.xctest */;
+			productReference = 91D9BFA52A173FBA00C8E118 /* soldir Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -645,7 +645,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 91D9BF5E2A173FB700C8E118 /* Build configuration list for PBXProject "OhmScanner" */;
+			buildConfigurationList = 91D9BF5E2A173FB700C8E118 /* Build configuration list for PBXProject "soldir" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -658,12 +658,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				91D9BF622A173FB700C8E118 /* OhmScanner */,
-				91D9BF722A173FB900C8E118 /* OhmScannerTests */,
-				91D9BF7C2A173FB900C8E118 /* OhmScannerUITests */,
-				91D9BF882A173FB900C8E118 /* OhmScanner Watch App */,
-				91D9BF9A2A173FBA00C8E118 /* OhmScanner Watch AppTests */,
-				91D9BFA42A173FBA00C8E118 /* OhmScanner Watch AppUITests */,
+				91D9BF622A173FB700C8E118 /* soldir */,
+				91D9BF722A173FB900C8E118 /* soldirTests */,
+				91D9BF7C2A173FB900C8E118 /* soldirUITests */,
+				91D9BF882A173FB900C8E118 /* soldir Watch App */,
+				91D9BF9A2A173FBA00C8E118 /* soldir Watch AppTests */,
+				91D9BFA42A173FBA00C8E118 /* soldir Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -723,7 +723,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9140AD5D2A1BD24B008EE97C /* OnboardingCarouselCard.swift in Sources */,
-				9160DCCD2A1DED7F003BFE86 /* resistorValueClassification_V1.mlmodel in Sources */,
+				9160DCCD2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel in Sources */,
 				9140AD462A1B8416008EE97C /* NavigationButton.swift in Sources */,
 				9140AD272A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
 				9140AD1F2A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
@@ -798,27 +798,27 @@
 /* Begin PBXTargetDependency section */
 		91D9BF752A173FB900C8E118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91D9BF622A173FB700C8E118 /* OhmScanner */;
+			target = 91D9BF622A173FB700C8E118 /* soldir */;
 			targetProxy = 91D9BF742A173FB900C8E118 /* PBXContainerItemProxy */;
 		};
 		91D9BF7F2A173FB900C8E118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91D9BF622A173FB700C8E118 /* OhmScanner */;
+			target = 91D9BF622A173FB700C8E118 /* soldir */;
 			targetProxy = 91D9BF7E2A173FB900C8E118 /* PBXContainerItemProxy */;
 		};
 		91D9BF8C2A173FB900C8E118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91D9BF882A173FB900C8E118 /* OhmScanner Watch App */;
+			target = 91D9BF882A173FB900C8E118 /* soldir Watch App */;
 			targetProxy = 91D9BF8B2A173FB900C8E118 /* PBXContainerItemProxy */;
 		};
 		91D9BF9D2A173FBA00C8E118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91D9BF882A173FB900C8E118 /* OhmScanner Watch App */;
+			target = 91D9BF882A173FB900C8E118 /* soldir Watch App */;
 			targetProxy = 91D9BF9C2A173FBA00C8E118 /* PBXContainerItemProxy */;
 		};
 		91D9BFA72A173FBA00C8E118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 91D9BF882A173FB900C8E118 /* OhmScanner Watch App */;
+			target = 91D9BF882A173FB900C8E118 /* soldir Watch App */;
 			targetProxy = 91D9BFA62A173FBA00C8E118 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -874,6 +874,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to detect the value of the resistor";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -926,6 +927,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera to detect the value of the resistor";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -953,7 +955,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.ohmscanner.watchkitapp;
-				PRODUCT_NAME = OhmScanner;
+				PRODUCT_NAME = soldir;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -984,7 +986,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.winxen.ohmscanner.watchkitapp;
-				PRODUCT_NAME = OhmScanner;
+				PRODUCT_NAME = soldir;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1080,7 +1082,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OhmScanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir";
 			};
 			name = Debug;
 		};
@@ -1101,7 +1103,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OhmScanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1165,7 +1167,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmScanner Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OhmScanner Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir Watch App";
 				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
 			name = Debug;
@@ -1187,7 +1189,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmScanner Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OhmScanner Watch App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/soldir Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/soldir Watch App";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 9.4;
 			};
@@ -1240,7 +1242,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91D9BF5E2A173FB700C8E118 /* Build configuration list for PBXProject "OhmScanner" */ = {
+		91D9BF5E2A173FB700C8E118 /* Build configuration list for PBXProject "soldir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFAD2A173FBA00C8E118 /* Debug */,
@@ -1249,7 +1251,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D9BFAF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner Watch App" */ = {
+		91D9BFAF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFB02A173FBA00C8E118 /* Debug */,
@@ -1258,7 +1260,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D9BFB32A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner" */ = {
+		91D9BFB32A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFB42A173FBA00C8E118 /* Debug */,
@@ -1267,7 +1269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D9BFB62A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScannerTests" */ = {
+		91D9BFB62A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFB72A173FBA00C8E118 /* Debug */,
@@ -1276,7 +1278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D9BFB92A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScannerUITests" */ = {
+		91D9BFB92A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldirUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFBA2A173FBA00C8E118 /* Debug */,
@@ -1285,7 +1287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D9BFBC2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner Watch AppTests" */ = {
+		91D9BFBC2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFBD2A173FBA00C8E118 /* Debug */,
@@ -1294,7 +1296,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D9BFBF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "OhmScanner Watch AppUITests" */ = {
+		91D9BFBF2A173FBA00C8E118 /* Build configuration list for PBXNativeTarget "soldir Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91D9BFC02A173FBA00C8E118 /* Debug */,

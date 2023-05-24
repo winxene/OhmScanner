@@ -13,12 +13,13 @@ struct NavigationButton<Destination: View>: View {
     let geometry: GeometryProxy
     
     var body: some View {
-        NavigationLink(destination: destination) {
+        NavigationLink {
+            destination.navigationBarBackButtonHidden()
+        } label: {
             Text(label)
                 .font(.system(size: 24, weight: .bold))
                 .frame(width: 179, height: 56)
-        }
-            .buttonStyle(.borderedProminent)
+        }.buttonStyle(.borderedProminent)
             .accentColor(.teal)
         .padding(.vertical, geometry.size.width * 0.038)
     }
