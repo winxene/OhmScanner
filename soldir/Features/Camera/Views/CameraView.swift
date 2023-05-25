@@ -9,19 +9,6 @@ import SwiftUI
 import Vision
 import WatchConnectivity
 
-class SessionDelegate: NSObject, WCSessionDelegate {
-    func sessionDidBecomeInactive(_ session: WCSession) {
-        session.activate()
-    }
-    
-    func sessionDidDeactivate(_ session: WCSession) {
-        session.activate()
-    }
-    
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-    }
-}
-
 struct CameraView: View {
     @Environment(\.dismiss) var dismiss
     @State private var capturedImage: UIImage?
@@ -68,7 +55,6 @@ struct CameraView: View {
         }
     }
 
-    
     func convertCIImageToCGImage(inputImage: CIImage) -> CGImage! {
         let context = CIContext(options: nil)
         if context != nil {
