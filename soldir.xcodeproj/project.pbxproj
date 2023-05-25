@@ -34,6 +34,7 @@
 		9160DCC62A1CFBC1003BFE86 /* AppearanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCC52A1CFBC1003BFE86 /* AppearanceModel.swift */; };
 		9160DCCD2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCCC2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel */; };
 		9160DCD02A1E010A003BFE86 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9160DCCF2A1E010A003BFE86 /* CameraViewModel.swift */; };
+		91AB4D852A1F7A94005EE683 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB4D842A1F7A94005EE683 /* SessionDelegate.swift */; };
 		91D9BF672A173FB700C8E118 /* SoldirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D9BF662A173FB700C8E118 /* SoldirApp.swift */; };
 		91D9BF6B2A173FB900C8E118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF6A2A173FB900C8E118 /* Assets.xcassets */; };
 		91D9BF6E2A173FB900C8E118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D9BF6D2A173FB900C8E118 /* Preview Assets.xcassets */; };
@@ -112,6 +113,7 @@
 		9160DCC52A1CFBC1003BFE86 /* AppearanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceModel.swift; sourceTree = "<group>"; };
 		9160DCCC2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ResistorValueClassification_V1.mlmodel; sourceTree = "<group>"; };
 		9160DCCF2A1E010A003BFE86 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		91AB4D842A1F7A94005EE683 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
 		91D9BF632A173FB700C8E118 /* soldir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soldir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D9BF662A173FB700C8E118 /* SoldirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoldirApp.swift; sourceTree = "<group>"; };
 		91D9BF6A2A173FB900C8E118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -361,6 +363,7 @@
 		9140AD432A1B83E8008EE97C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				91AB4D832A1F7A84005EE683 /* Helpers */,
 				9160DCC42A1CFBA2003BFE86 /* Models */,
 				9140AD442A1B83EC008EE97C /* Components */,
 			);
@@ -411,6 +414,14 @@
 				9160DCCF2A1E010A003BFE86 /* CameraViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		91AB4D832A1F7A84005EE683 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				91AB4D842A1F7A94005EE683 /* SessionDelegate.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		91D9BF5A2A173FB700C8E118 = {
@@ -726,6 +737,7 @@
 				9160DCCD2A1DED7F003BFE86 /* ResistorValueClassification_V1.mlmodel in Sources */,
 				9140AD462A1B8416008EE97C /* NavigationButton.swift in Sources */,
 				9140AD272A189BCC008EE97C /* soldir_Watch_AppUITestsLaunchTests.swift in Sources */,
+				91AB4D852A1F7A94005EE683 /* SessionDelegate.swift in Sources */,
 				9140AD1F2A189BC3008EE97C /* soldir_Watch_AppTests.swift in Sources */,
 				9160DCD02A1E010A003BFE86 /* CameraViewModel.swift in Sources */,
 				9140AD3C2A1A79FE008EE97C /* CameraView.swift in Sources */,
