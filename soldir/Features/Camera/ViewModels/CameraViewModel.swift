@@ -13,9 +13,9 @@ struct CameraViewModel: UIViewRepresentable {
     func makeCoordinator() -> Coordinator {
         return Coordinator(self)
     }
-
-class Coordinator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
-        let parent: CameraViewModel
+    
+    class Coordinator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
+        var parent: CameraViewModel
         
         init(_ parent: CameraViewModel) {
             self.parent = parent
@@ -38,6 +38,26 @@ class Coordinator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
     private var coordinator: Coordinator?
     
     private var frameHandler: ((UIImage) -> Void)?
+    
+    private var zoomScale: CGFloat = 1.0 {
+        didSet {
+            guard let videoCaptureDevice = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back) else {
+                return
+            }
+            
+            do {
+                try videoCaptureDevice.lockForConfiguration()
+                defer { videoCaptureDevice.unlockForConfiguration() }
+                
+                let maxZoomFactor = videoCaptureDevice.activeFormat.videoMaxZoomFactor
+                let clampedZoomScale = max(1.0, min(maxZoomFactor, zoomScale))
+                
+                videoCaptureDevice.videoZoomFactor = clampedZoomScale
+            } catch {
+                print("Failed to set zoom scale: \(error)")
+            }
+        }
+    }
     
     func makeUIView(context: Context) -> UIView {
         let view = UIView(frame: UIScreen.main.bounds)
@@ -65,6 +85,9 @@ class Coordinator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
         previewLayer.frame = view.bounds
         view.layer.addSublayer(previewLayer)
         
+        let pinchGesture = UIPinchGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.handlePinchGesture(_:)))
+        view.addGestureRecognizer(pinchGesture)
+        
         captureSession.startRunning()
         
         return view
@@ -75,11 +98,10 @@ class Coordinator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
     }
     
     func handleFrame(_ frame: UIImage) {
-        
         if let safeHandler = frameHandler {
             safeHandler(frame)
         } else {
-            print("frameHandler is not defined! ")
+            print("frameHandler is not defined!")
         }
     }
     
@@ -88,5 +110,40 @@ class Coordinator: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
         updatedView.frameHandler = handler
         
         return updatedView
+    }
+    
+    func zoom(withScale scale: CGFloat) -> Self {
+        var updatedView = self
+        updatedView.zoomScale = scale
+        
+        return updatedView
+    }
+}
+
+extension CameraViewModel.Coordinator {
+    @objc func handlePinchGesture(_ gesture: UIPinchGestureRecognizer) {
+        guard let previewView = parent.previewLayer?.previewView else {
+            return
+        }
+        
+        switch gesture.state {
+        case .changed, .ended:
+            let scale = gesture.scale
+            let zoomScale = parent.zoomScale * scale
+            parent.zoomScale = zoomScale
+            
+            gesture.scale = 1.0
+            
+            // Reset the gesture's scale to 1.0 to avoid exponential scaling
+            
+        default:
+            break
+        }
+    }
+}
+
+extension AVCaptureVideoPreviewLayer {
+    var previewView: UIView? {
+        return self.superlayer?.superlayer as? UIView
     }
 }
