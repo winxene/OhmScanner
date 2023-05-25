@@ -14,24 +14,30 @@ struct CameraView: View {
     @State private var resistorValue: String?
     
     func handleFrame(_ frame: UIImage) {
-        
         capturedImage = frame
         guard let ciImage = frame.ciImage else {
-            print("Not converted")
+            print("Failed to convert image")
             return
         }
         
+        let requestHandler = VNImageRequestHandler(ciImage: ciImage, options: [:])
         
-        
-//        let requestHandler = VNImageRequestHandler(ciImage: ciImage)
-//
-//        let request = VNClassifyImageRequest(completionHandler: <#T##VNRequestCompletionHandler?##VNRequestCompletionHandler?##(VNRequest, Error?) -> Void#>)
-
+        do {
+            let model = try VNCoreMLModel(for: ResistorValueClassification_V1(configuration: MLModelConfiguration()).model)
+            let request = VNCoreMLRequest(model: model) { request, error in
+                guard let results = request.results as? [VNClassificationObservation], let topResult = results.first else {
+                    print("Classification failed")
+                    return
+                }
+                
+                self.resistorValue = topResult.identifier
+            }
+            
+            try requestHandler.perform([request])
+        } catch {
+            print("Failed to perform image classification: \(error)")
+        }
     }
-    
-//    func resistorImageHandler(request: VNRequest, error: Error?) {
-//        guard let observations = request.results as? VNImageOb
-//    }
 
     
     func convertCIImageToCGImage(inputImage: CIImage) -> CGImage! {
