@@ -9,12 +9,26 @@ import SwiftUI
 import Vision
 import WatchConnectivity
 
+class SessionDelegate: NSObject, WCSessionDelegate {
+    func sessionDidBecomeInactive(_ session: WCSession) {
+        session.activate()
+    }
+    
+    func sessionDidDeactivate(_ session: WCSession) {
+        session.activate()
+    }
+    
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+    }
+}
+
 struct CameraView: View {
     @Environment(\.dismiss) var dismiss
     @State private var capturedImage: UIImage?
     @State private var resistorValue: String?
     
     @State private var session: WCSession?
+    private let sessionDelegate = SessionDelegate()
     
     func sendResistorValueToWatch() {
         guard let session = session, session.isReachable else {
@@ -87,6 +101,9 @@ struct CameraView: View {
         print(resistorValue ?? "0")
     }
     
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+    }
+    
     var body: some View {
         VStack (alignment: .center){
             CameraViewModel()
@@ -107,13 +124,14 @@ struct CameraView: View {
             }
         }
         .onAppear {
-            if WCSession.isSupported() {
-                    session = WCSession.default
-                    session?.activate()
+                    if WCSession.isSupported() {
+                        session = WCSession.default
+                        session?.delegate = sessionDelegate
+                        session?.activate()
+                    }
                 }
-            }
-            .onChange(of: resistorValue) { newValue in
-                sendResistorValueToWatch()
-            }
+                .onChange(of: resistorValue) { newValue in
+                    sendResistorValueToWatch()
+                }
     }
 }
