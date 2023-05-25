@@ -7,11 +7,26 @@
 
 import SwiftUI
 import Vision
+import WatchConnectivity
 
 struct CameraView: View {
     @Environment(\.dismiss) var dismiss
     @State private var capturedImage: UIImage?
     @State private var resistorValue: String?
+    
+    @State private var session: WCSession?
+    
+    func sendResistorValueToWatch() {
+        guard let session = session, session.isReachable else {
+            return
+        }
+        
+        let message = ["resistorValue": resistorValue ?? "-"]
+        
+        session.sendMessage(message, replyHandler: nil) { error in
+            print("Failed to send message to Apple Watch: \(error.localizedDescription)")
+        }
+    }
     
     func handleFrame(_ frame: UIImage) {
         capturedImage = frame
@@ -82,11 +97,23 @@ struct CameraView: View {
                 .frame(width: 300, height: 300)
                 .cornerRadius(10)
                 .padding(.vertical)
-            Text(resistorValue ?? "0")
+            HStack {
+                Text(resistorValue ?? "0")
+                Text("Ω")
+            }
         }.toolbar {
             Button("Done") {
                 dismiss()
             }
         }
+        .onAppear {
+            if WCSession.isSupported() {
+                    session = WCSession.default
+                    session?.activate()
+                }
+            }
+            .onChange(of: resistorValue) { newValue in
+                sendResistorValueToWatch()
+            }
     }
 }
