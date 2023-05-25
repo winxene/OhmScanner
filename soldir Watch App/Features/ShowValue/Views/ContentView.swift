@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WatchKit
 import WatchConnectivity
 
 class SessionDelegate: NSObject, WCSessionDelegate {
