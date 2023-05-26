@@ -41,13 +41,13 @@
       "size" : "60x60"
     },
     {
-      "filename" : "resistor-1024@1x 1.png",
+      "filename" : "appstore.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
     },
     {
-      "filename" : "resistor-1024@1x.png",
+      "filename" : "appstore 1.png",
       "idiom" : "universal",
       "platform" : "watchos",
       "size" : "1024x1024"
