@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "resistor-1024 1.png",
+      "filename" : "appstore.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
@@ -61,7 +61,7 @@
       "size" : "60x60"
     },
     {
-      "filename" : "resistor-1024.png",
+      "filename" : "appstore 1.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
